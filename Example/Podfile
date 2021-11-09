@@ -9,5 +9,23 @@ target 'ShareTool_Example' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase'
+    
+    
   end
+end
+
+#避免依赖传递
+#install! 'cocoapods', :deterministic_uuids => false
+pre_install do |installer|
+  Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+
+end
+
+# m1 编译 yyImage报错问题
+post_install do |installer|
+installer.pods_project.build_configurations.each do |config|
+config.build_settings['VALID_ARCHS'] = 'arm64 arm64e armv7 armv7s x86_64 i386'
+config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = 'arm64'
+end
+
 end

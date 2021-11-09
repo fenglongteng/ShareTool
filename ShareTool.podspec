@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ShareTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ShareTool.'
+  s.summary          = '微信分享、qq分享pod模块化集成'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '微信分享、qq分享pod模块化集成'
 
   s.homepage         = 'https://github.com/冯龙腾/ShareTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -32,11 +30,34 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ShareTool/Classes/**/*'
   
+  s.source_files = 'ShareTool/Classes/**/*'
+
+  
+  s.vendored_libraries = ['ShareTool/Lib/**/*.a']
+  
+  s.libraries = 'z', 'c++'
+
+  
+  s.dependency 'TencentOpenAPI'
+
+  s.frameworks  = 'Security', 'CoreGraphics', 'WebKit','TencentOpenAPI'
+
+
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-ObjC -all_load -l"z" -l"c++"',
+    'ENABLE_BITCODE' => 'YES'
+  }
+  
+  s.public_header_files = 'ShareTool/Classes/**/*.h'
+
+
+  s.subspec 'lib' do |ss|
+      ss.source_files =  "ShareTool/Lib/**/*"
+      ss.vendored_libraries = ['ShareTool/Lib/**/*.a']
+   end
+  
   # s.resource_bundles = {
   #   'ShareTool' => ['ShareTool/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

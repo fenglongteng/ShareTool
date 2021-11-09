@@ -7,11 +7,25 @@
 //
 
 #import "QTAppDelegate.h"
+#import "WXApi.h"
+#import <TencentOpenAPI/TencentOAuth.h>
+#import <ShareTool/ShareSDKTool.h>
+
+@interface QTAppDelegate()<TencentSessionDelegate>
+
+@end
+
 
 @implementation QTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+   
+    [[ShareSDKTool Shared]qqInitWithAppId:@"101969907" andDelegate:[ShareSDKTool Shared]];
+   
+
+
     // Override point for customization after application launch.
     return YES;
 }
@@ -42,5 +56,27 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+   return [TencentOAuth HandleOpenURL:url];
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+   return [TencentOAuth HandleOpenURL:url];
+}
+
+- (void)tencentDidLogin {
+    
+}
+
+- (void)tencentDidNotLogin:(BOOL)cancelled {
+    
+}
+
+- (void)tencentDidNotNetWork {
+    
+}
+
+
 
 @end

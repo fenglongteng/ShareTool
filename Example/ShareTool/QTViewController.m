@@ -7,6 +7,7 @@
 //
 
 #import "QTViewController.h"
+#import <ShareTool/ShareSDKTool.h>
 
 @interface QTViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[ShareSDKTool Shared] shareToQQWithWebpageUrl:@"sfsf" type:ShareType_QQ];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -1,0 +1,34 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ShareTool (0.1.0):
+    - ShareTool/lib (= 0.1.0)
+    - TencentOpenAPI
+  - ShareTool/lib (0.1.0):
+    - TencentOpenAPI
+  - TencentOpenAPI (1.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ShareTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - TencentOpenAPI
+
+EXTERNAL SOURCES:
+  ShareTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ShareTool: 2111d7576c9ebb22ce09b19a50fd0ac27a9ebe64
+  TencentOpenAPI: ddc6fb0134b25c9078ccd27fd2259ed0cc30a49a
+
+PODFILE CHECKSUM: f2816fd9cb855e13c98f28600138792c12503278
+
+COCOAPODS: 1.10.1

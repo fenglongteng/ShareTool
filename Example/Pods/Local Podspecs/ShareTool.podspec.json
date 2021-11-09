@@ -1,0 +1,54 @@
+{
+  "name": "ShareTool",
+  "version": "0.1.0",
+  "summary": "A short description of ShareTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/冯龙腾/ShareTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "冯龙腾": "524510161@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/冯龙腾/ShareTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ShareTool/Classes/**/*",
+  "vendored_libraries": [
+    "ShareTool/Lib/**/*.a"
+  ],
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "dependencies": {
+    "TencentOpenAPI": [
+
+    ]
+  },
+  "frameworks": [
+    "Security",
+    "CoreGraphics",
+    "WebKit",
+    "TencentOpenAPI"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC -all_load -l\"z\" -l\"c++\"",
+    "ENABLE_BITCODE": "YES"
+  },
+  "public_header_files": "ShareTool/Classes/**/*.h",
+  "subspecs": [
+    {
+      "name": "lib",
+      "source_files": "ShareTool/Lib/**/*",
+      "vendored_libraries": [
+        "ShareTool/Lib/**/*.a"
+      ]
+    }
+  ]
+}

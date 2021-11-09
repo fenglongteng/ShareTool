@@ -1,0 +1,1237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 69A610F5447A8DF52491B1D5B78BC9DA /* Build configuration list for PBXAggregateTarget "TencentOpenAPI" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TencentOpenAPI;
+			productName = TencentOpenAPI;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 2381504D76E05BA1DD6432C78DC98E2F /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E9E53AD665C7FE5F50896E1CC9C642 /* Pods-ShareTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9593BC43C93AE0F289F19266A9C9C9 /* Pods-ShareTool_Tests-dummy.m */; };
+		0F948B8F5E082019582575EA3CC94129 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9C0EBFA49F4EC0FF035C8308C15FDE /* Security.framework */; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 024EFBBF075DEFD3BFEA80594792F9B7 /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FE1BAFB02B748FB2D004C641DBC0BE0 /* XCTest.framework */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7846273096410982BCF81828AA4786 /* UIImage+Diff.m */; };
+		1898C6C981DCAF2488CB13F6B99CB54C /* Pods-ShareTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4076FDBC73667D54C3A30A7BDD8DA234 /* Pods-ShareTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1E868A10C03973EAC4FD91EB325F19 /* libWeChatSDK.a in Sources */ = {isa = PBXBuildFile; fileRef = D5D02042C93A90CD5A2E906F2364D0BD /* libWeChatSDK.a */; };
+		1E50B1A74083D708F0C3279DE2D219A3 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B504FE2389D34749FFD40488476CC31 /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FD48466CFC207190B2542C955CA75D /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 413716875D567FFBEDC28A5957F3D7EC /* QuartzCore.framework */; };
+		3C8AFA304E70807DC530A80E1E0423F5 /* README.txt in Sources */ = {isa = PBXBuildFile; fileRef = 56D316ACA824A30CC77274C6FA23658A /* README.txt */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 85292F0B1EA2537404A98E99A35B4DA8 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		48E9535D5A5CF1030B628D4D428C4EFA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C2FE0CA2BEE2C4923FF1B36C59EAF49F /* ReplaceMe.m */; };
+		4D96D7BCC39B1E6DB5510BF61B1855E5 /* ShareTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9876315B63092DAA70B98FF443093564 /* ShareTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CD1940DF1687BA19B549E6AF5E40E23 /* Pods-ShareTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 515460842E82336738C552B8BDB7B244 /* Pods-ShareTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9640165FF25EDC0AB9F041A792B4B243 /* FBSnapshotTestCase-dummy.m */; };
+		6E41A6CDC889CDC88151AA7F14C8CBA2 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 513BDEDD33AC5577F19F4AF4A1B07767 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0965517A8F3CBC6D95C8C9639F640C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB812E37D6EAD85A5B5993F265C5E1E /* CoreGraphics.framework */; };
+		7B4D154F84ADEE8A47B80F375C90A2D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622BDF959011234EB71B75157D3F3F9E /* Foundation.framework */; };
+		85630FDA68F9CA324755430066A14827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622BDF959011234EB71B75157D3F3F9E /* Foundation.framework */; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = B03C926FDF8ABAA045510DD59AC2B48C /* FBSnapshotTestController.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5CC8EEE5FE484D33BD41C4EB3913B2 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = E757B94140CA68343F1EDF4C46FC64C4 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		993758491E4B9FC634EF6804BD7A3728 /* ShareSDKTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F411DB8B9A961969FFDDF79E0D904B18 /* ShareSDKTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DADC93599D10B3C9BC1D85429D7A0C0 /* SwiftSupport.swift */; };
+		9E0FC0265C4A44E4C1A6D111109F167A /* ShareSDKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC6AD37620BF12A0C8D37223C7A582C /* ShareSDKTool.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7B256B9A4F8CCE108DDFADF8EBE0EA /* UIImage+Snapshot.m */; };
+		B285039334A6E86B4A005A295C6A3E0C /* ShareTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB4A2ABC91B00EAE890CC82CF0AA111 /* ShareTool-dummy.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 931FCE75D1FB4545E5B73B05DE4785AA /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232A719AF73358CB7F495739F62A72E5 /* UIKit.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 1367A9D4D3E6DAD2FB9057DBC97BC997 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622BDF959011234EB71B75157D3F3F9E /* Foundation.framework */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C59E529A15BE6C42356BF1006F1428A /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E32E2A1559542EBB7498FCF33F14DF17 /* Pods-ShareTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5AC187166864B561656FA8CCAAB45BC /* Pods-ShareTool_Example-dummy.m */; };
+		E46DF968644AF20773999BD9723B7CF3 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = E8DB337B02C968BBA39662B7EDDB2A21 /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFE54D7F8D12523F3C3BAE7B3CF889F /* FBSnapshotTestCasePlatform.m */; };
+		F0E5DFB6A85BCAE20AF95BB9D1FFA838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 622BDF959011234EB71B75157D3F3F9E /* Foundation.framework */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 441C7F009579BE4C85D40129285289CF /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F45D967F400F8A87FA55CA73158F28DD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE61E2049F76272B3D8073F9457F643 /* WebKit.framework */; };
+		F5D58B1989A544F1571E1E948A6DDA9F /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49CAF6C0822994B6B7E62CFD466B0531 /* TencentOpenAPI.framework */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CB195EECF2B5F3FD236FC81C642F1B /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2490A7195C161CFAC5329DFB1EE70BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645CDFDD2DAE50DE814890BD6DE70D8F;
+			remoteInfo = ShareTool;
+		};
+		4A3EADC8E95FD6954BDD7EB563CAF36F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		63B335805F22CE014F10658794684F5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA97C3765B8E3DCC8E1F8E386E78EC22;
+			remoteInfo = TencentOpenAPI;
+		};
+		B4007EB620EA2E86D6864E9DDAB760FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D053DE82E080A0702E92F04FE1F638E7;
+			remoteInfo = "Pods-ShareTool_Example";
+		};
+		BD399F87DE91AF042AA947C060B26931 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA97C3765B8E3DCC8E1F8E386E78EC22;
+			remoteInfo = TencentOpenAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0058F83B79A343C7B6DED1562BFCCA9F /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		024EFBBF075DEFD3BFEA80594792F9B7 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		0C59E529A15BE6C42356BF1006F1428A /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		0EE61E2049F76272B3D8073F9457F643 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		111794FA1AE36B6FC520686BA9B1B004 /* Pods-ShareTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		125597388BAA91550F8C7E23CBED7649 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		1367A9D4D3E6DAD2FB9057DBC97BC997 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		20F8D52958253C3D9E8EBF1A457AA853 /* Pods-ShareTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShareTool_Tests.modulemap"; sourceTree = "<group>"; };
+		22FD48466CFC207190B2542C955CA75D /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		232A719AF73358CB7F495739F62A72E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2381504D76E05BA1DD6432C78DC98E2F /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		283DBBA7C095A586AF3F6EE7188D0B75 /* Pods-ShareTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3B7B256B9A4F8CCE108DDFADF8EBE0EA /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		3DF0EC339FA88C015829AE51DFB7E82D /* ShareTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShareTool-Info.plist"; sourceTree = "<group>"; };
+		3EB4A2ABC91B00EAE890CC82CF0AA111 /* ShareTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShareTool-dummy.m"; sourceTree = "<group>"; };
+		3FE1BAFB02B748FB2D004C641DBC0BE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4076FDBC73667D54C3A30A7BDD8DA234 /* Pods-ShareTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		413716875D567FFBEDC28A5957F3D7EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		441C7F009579BE4C85D40129285289CF /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		46B93AF3A1691BDA8344523346D871B3 /* Pods-ShareTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		49CAF6C0822994B6B7E62CFD466B0531 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/TencentOpenAPI.framework; sourceTree = DEVELOPER_DIR; };
+		4D5CC8EEE5FE484D33BD41C4EB3913B2 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		513BDEDD33AC5577F19F4AF4A1B07767 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ShareTool/Lib/WXApiObject.h; sourceTree = "<group>"; };
+		515460842E82336738C552B8BDB7B244 /* Pods-ShareTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShareTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		55CD30B6FB671BB2C5E24DF8696E1AF5 /* ShareTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShareTool.release.xcconfig; sourceTree = "<group>"; };
+		56D316ACA824A30CC77274C6FA23658A /* README.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.txt; path = ShareTool/Lib/README.txt; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CB195EECF2B5F3FD236FC81C642F1B /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		622BDF959011234EB71B75157D3F3F9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C3A038252C65153A22C27EDC5C76F93 /* ShareTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShareTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73337566B91FE5350EC6A1F4040B3213 /* Pods-ShareTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		78C00156923128CB5272988D6F90C2F8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		791DBE8871C372B43EDE72FB09660047 /* Pods-ShareTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7EC6AD37620BF12A0C8D37223C7A582C /* ShareSDKTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ShareSDKTool.m; sourceTree = "<group>"; };
+		7F0C498AFBDEA14A21CEBC68B25021C5 /* Pods-ShareTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		85292F0B1EA2537404A98E99A35B4DA8 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		8B78E32B309B10F58800042FA02D855E /* TencentOpenAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenAPI.release.xcconfig; sourceTree = "<group>"; };
+		8DADC93599D10B3C9BC1D85429D7A0C0 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		8F13F017FD92B213C50F2D32D984C750 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		931FCE75D1FB4545E5B73B05DE4785AA /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		960DC952933AA1E9C902DA974B3A7666 /* ShareTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareTool-prefix.pch"; sourceTree = "<group>"; };
+		9640165FF25EDC0AB9F041A792B4B243 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		9876315B63092DAA70B98FF443093564 /* ShareTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShareTool-umbrella.h"; sourceTree = "<group>"; };
+		9B504FE2389D34749FFD40488476CC31 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = ShareTool/Lib/WechatAuthSDK.h; sourceTree = "<group>"; };
+		9B9593BC43C93AE0F289F19266A9C9C9 /* Pods-ShareTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		9B9C0EBFA49F4EC0FF035C8308C15FDE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DFB8267CA6C9D51D9BAB45300609503 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		A7B87E64A04112D3750CE4F3590E633C /* Pods-ShareTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9656A6571141AC1F358AAFFE7F7DC61 /* ShareTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShareTool.modulemap; sourceTree = "<group>"; };
+		ABF08CC3391D549BCC90F78118DD5499 /* ShareTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShareTool.debug.xcconfig; sourceTree = "<group>"; };
+		B03C926FDF8ABAA045510DD59AC2B48C /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		B0604036FB0909B70D6FC42BC4D64E1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B09323F7D12E13BBB0A8F6C540D01546 /* Pods-ShareTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShareTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5AC187166864B561656FA8CCAAB45BC /* Pods-ShareTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShareTool_Example-dummy.m"; sourceTree = "<group>"; };
+		C1E78FC217E3791AEC8017856B042500 /* Pods_ShareTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FE0CA2BEE2C4923FF1B36C59EAF49F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ShareTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CBB390E55A231A9FE4196269A4F583ED /* Pods-ShareTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CD68ABFB38F77EC0CD69762B41C7FC97 /* Pods_ShareTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D04610D746E850A5E1416175A9BA74FE /* TencentOpenAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TencentOpenAPI.debug.xcconfig; sourceTree = "<group>"; };
+		D360CBAE9254B5EAF9620E6003C63833 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		D3E4C99965EED4F167C46563AC1E0B23 /* Pods-ShareTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5D02042C93A90CD5A2E906F2364D0BD /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ShareTool/Lib/libWeChatSDK.a; sourceTree = "<group>"; };
+		D7C34BDD304121C3B02A58C0B096D960 /* Pods-ShareTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShareTool_Example-Info.plist"; sourceTree = "<group>"; };
+		D8E921B9B6480D8C793671DA1A5E6F4F /* Pods-ShareTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShareTool_Example-resources.sh"; sourceTree = "<group>"; };
+		DC8A51FA195B261F1628097781875E9A /* ShareTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShareTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DE7846273096410982BCF81828AA4786 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		E70C43B07491C8D5F05332CE97AD5211 /* Pods-ShareTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShareTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E757B94140CA68343F1EDF4C46FC64C4 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		E8DB337B02C968BBA39662B7EDDB2A21 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = ShareTool/Lib/WXApi.h; sourceTree = "<group>"; };
+		E9978C431D11F9B777CA4D5964105154 /* Pods-ShareTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShareTool_Example.modulemap"; sourceTree = "<group>"; };
+		EDFE54D7F8D12523F3C3BAE7B3CF889F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		EEB812E37D6EAD85A5B5993F265C5E1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F411DB8B9A961969FFDDF79E0D904B18 /* ShareSDKTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ShareSDKTool.h; sourceTree = "<group>"; };
+		F70A56CFDEE6FC4E6D2903018EFF44B7 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		502263770A39DD64C6E0E9E09F79C7E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4D154F84ADEE8A47B80F375C90A2D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6557C6F8F8E6156F0CAAE98D9D563A50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0965517A8F3CBC6D95C8C9639F640C /* CoreGraphics.framework in Frameworks */,
+				85630FDA68F9CA324755430066A14827 /* Foundation.framework in Frameworks */,
+				0F948B8F5E082019582575EA3CC94129 /* Security.framework in Frameworks */,
+				F5D58B1989A544F1571E1E948A6DDA9F /* TencentOpenAPI.framework in Frameworks */,
+				F45D967F400F8A87FA55CA73158F28DD /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF69405BE29A1EC0B454A4B9272FCD5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0E5DFB6A85BCAE20AF95BB9D1FFA838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0285F3E710A4F939D4CE77C62630AF4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D360CBAE9254B5EAF9620E6003C63833 /* TencentOpenAPI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04D31602A5DE91E691B1AD75243EF119 /* ShareTool */ = {
+			isa = PBXGroup;
+			children = (
+				C2FE0CA2BEE2C4923FF1B36C59EAF49F /* ReplaceMe.m */,
+				35543630321432B1F27A69F294029B6C /* Frameworks */,
+				3B35F2146FE6CA45C385807D0CD7E1DD /* lib */,
+				4E4DFBCA042D5256B058F21D8264A844 /* Pod */,
+				1EDF1A6D4A0EE37F2D6B6CB658CC14F3 /* Share */,
+				536020151C2314892CFF05596A3B27DC /* Support Files */,
+			);
+			name = ShareTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		08AB02A40357603D41F06AD129ACE27E /* Pods-ShareTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E9978C431D11F9B777CA4D5964105154 /* Pods-ShareTool_Example.modulemap */,
+				B09323F7D12E13BBB0A8F6C540D01546 /* Pods-ShareTool_Example-acknowledgements.markdown */,
+				791DBE8871C372B43EDE72FB09660047 /* Pods-ShareTool_Example-acknowledgements.plist */,
+				B5AC187166864B561656FA8CCAAB45BC /* Pods-ShareTool_Example-dummy.m */,
+				CBB390E55A231A9FE4196269A4F583ED /* Pods-ShareTool_Example-frameworks.sh */,
+				D7C34BDD304121C3B02A58C0B096D960 /* Pods-ShareTool_Example-Info.plist */,
+				D8E921B9B6480D8C793671DA1A5E6F4F /* Pods-ShareTool_Example-resources.sh */,
+				4076FDBC73667D54C3A30A7BDD8DA234 /* Pods-ShareTool_Example-umbrella.h */,
+				46B93AF3A1691BDA8344523346D871B3 /* Pods-ShareTool_Example.debug.xcconfig */,
+				7F0C498AFBDEA14A21CEBC68B25021C5 /* Pods-ShareTool_Example.release.xcconfig */,
+			);
+			name = "Pods-ShareTool_Example";
+			path = "Target Support Files/Pods-ShareTool_Example";
+			sourceTree = "<group>";
+		};
+		1C81781A7C8E046E44316B9F9EE5F25A /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				A60112C740A7992EA0168DF55E87EEA7 /* Core */,
+				BC770EA1F8CE8DEC36948D1EB72DE2B0 /* Support Files */,
+				327FDA834BA8D587158CF827FADAEAEB /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		1EDF1A6D4A0EE37F2D6B6CB658CC14F3 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				F411DB8B9A961969FFDDF79E0D904B18 /* ShareSDKTool.h */,
+				7EC6AD37620BF12A0C8D37223C7A582C /* ShareSDKTool.m */,
+			);
+			name = Share;
+			path = ShareTool/Classes/Share;
+			sourceTree = "<group>";
+		};
+		327FDA834BA8D587158CF827FADAEAEB /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				8DADC93599D10B3C9BC1D85429D7A0C0 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		35543630321432B1F27A69F294029B6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36787E081D513002D0644D441EE7F581 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08AB02A40357603D41F06AD129ACE27E /* Pods-ShareTool_Example */,
+				FD86BC4BA26749977847E1FE42C336CC /* Pods-ShareTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3B35F2146FE6CA45C385807D0CD7E1DD /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				D5D02042C93A90CD5A2E906F2364D0BD /* libWeChatSDK.a */,
+				56D316ACA824A30CC77274C6FA23658A /* README.txt */,
+				9B504FE2389D34749FFD40488476CC31 /* WechatAuthSDK.h */,
+				E8DB337B02C968BBA39662B7EDDB2A21 /* WXApi.h */,
+				513BDEDD33AC5577F19F4AF4A1B07767 /* WXApiObject.h */,
+				F20DFD6D36053C6AEF0801EC1876FBB5 /* Frameworks */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		4E4DFBCA042D5256B058F21D8264A844 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B0604036FB0909B70D6FC42BC4D64E1C /* LICENSE */,
+				DC8A51FA195B261F1628097781875E9A /* ShareTool.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		536020151C2314892CFF05596A3B27DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9656A6571141AC1F358AAFFE7F7DC61 /* ShareTool.modulemap */,
+				3EB4A2ABC91B00EAE890CC82CF0AA111 /* ShareTool-dummy.m */,
+				3DF0EC339FA88C015829AE51DFB7E82D /* ShareTool-Info.plist */,
+				960DC952933AA1E9C902DA974B3A7666 /* ShareTool-prefix.pch */,
+				9876315B63092DAA70B98FF443093564 /* ShareTool-umbrella.h */,
+				ABF08CC3391D549BCC90F78118DD5499 /* ShareTool.debug.xcconfig */,
+				55CD30B6FB671BB2C5E24DF8696E1AF5 /* ShareTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShareTool";
+			sourceTree = "<group>";
+		};
+		644D8CBF21B4FE0BFD651A46CA981050 /* TencentOpenAPI */ = {
+			isa = PBXGroup;
+			children = (
+				0285F3E710A4F939D4CE77C62630AF4C /* Frameworks */,
+				C3801B4282E2D327E9EAF631F54B4855 /* Resources */,
+				CDE736CE9C0120BB89F2B05E65F56BF9 /* Support Files */,
+			);
+			path = TencentOpenAPI;
+			sourceTree = "<group>";
+		};
+		79EB8E7AAD08A8D29F91C136D1529DCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C81781A7C8E046E44316B9F9EE5F25A /* FBSnapshotTestCase */,
+				644D8CBF21B4FE0BFD651A46CA981050 /* TencentOpenAPI */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4984DCC38AEA24366E7BCA36CE06813 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04D31602A5DE91E691B1AD75243EF119 /* ShareTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A60112C740A7992EA0168DF55E87EEA7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2381504D76E05BA1DD6432C78DC98E2F /* FBSnapshotTestCase.h */,
+				4D5CC8EEE5FE484D33BD41C4EB3913B2 /* FBSnapshotTestCase.m */,
+				1367A9D4D3E6DAD2FB9057DBC97BC997 /* FBSnapshotTestCasePlatform.h */,
+				EDFE54D7F8D12523F3C3BAE7B3CF889F /* FBSnapshotTestCasePlatform.m */,
+				E757B94140CA68343F1EDF4C46FC64C4 /* FBSnapshotTestController.h */,
+				B03C926FDF8ABAA045510DD59AC2B48C /* FBSnapshotTestController.m */,
+				85292F0B1EA2537404A98E99A35B4DA8 /* UIApplication+StrictKeyWindow.h */,
+				024EFBBF075DEFD3BFEA80594792F9B7 /* UIApplication+StrictKeyWindow.m */,
+				441C7F009579BE4C85D40129285289CF /* UIImage+Compare.h */,
+				22FD48466CFC207190B2542C955CA75D /* UIImage+Compare.m */,
+				0C59E529A15BE6C42356BF1006F1428A /* UIImage+Diff.h */,
+				DE7846273096410982BCF81828AA4786 /* UIImage+Diff.m */,
+				931FCE75D1FB4545E5B73B05DE4785AA /* UIImage+Snapshot.h */,
+				3B7B256B9A4F8CCE108DDFADF8EBE0EA /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BC770EA1F8CE8DEC36948D1EB72DE2B0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0058F83B79A343C7B6DED1562BFCCA9F /* FBSnapshotTestCase.modulemap */,
+				9640165FF25EDC0AB9F041A792B4B243 /* FBSnapshotTestCase-dummy.m */,
+				8F13F017FD92B213C50F2D32D984C750 /* FBSnapshotTestCase-Info.plist */,
+				78C00156923128CB5272988D6F90C2F8 /* FBSnapshotTestCase-prefix.pch */,
+				61CB195EECF2B5F3FD236FC81C642F1B /* FBSnapshotTestCase-umbrella.h */,
+				9DFB8267CA6C9D51D9BAB45300609503 /* FBSnapshotTestCase.debug.xcconfig */,
+				F70A56CFDEE6FC4E6D2903018EFF44B7 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		C3801B4282E2D327E9EAF631F54B4855 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				125597388BAA91550F8C7E23CBED7649 /* TencentOpenApi_IOS_Bundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CDE736CE9C0120BB89F2B05E65F56BF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D04610D746E850A5E1416175A9BA74FE /* TencentOpenAPI.debug.xcconfig */,
+				8B78E32B309B10F58800042FA02D855E /* TencentOpenAPI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TencentOpenAPI";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A4984DCC38AEA24366E7BCA36CE06813 /* Development Pods */,
+				F119B4A0ABE017AECEE69836596133B2 /* Frameworks */,
+				79EB8E7AAD08A8D29F91C136D1529DCC /* Pods */,
+				DD2CE9BECFDE1BD112A474EA2313F1E5 /* Products */,
+				36787E081D513002D0644D441EE7F581 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2CE9BECFDE1BD112A474EA2313F1E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				CD68ABFB38F77EC0CD69762B41C7FC97 /* Pods_ShareTool_Example.framework */,
+				C1E78FC217E3791AEC8017856B042500 /* Pods_ShareTool_Tests.framework */,
+				6C3A038252C65153A22C27EDC5C76F93 /* ShareTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F119B4A0ABE017AECEE69836596133B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC203BAD5712238824AAF78AA5ABA7D8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20DFD6D36053C6AEF0801EC1876FBB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC203BAD5712238824AAF78AA5ABA7D8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EEB812E37D6EAD85A5B5993F265C5E1E /* CoreGraphics.framework */,
+				622BDF959011234EB71B75157D3F3F9E /* Foundation.framework */,
+				413716875D567FFBEDC28A5957F3D7EC /* QuartzCore.framework */,
+				9B9C0EBFA49F4EC0FF035C8308C15FDE /* Security.framework */,
+				49CAF6C0822994B6B7E62CFD466B0531 /* TencentOpenAPI.framework */,
+				232A719AF73358CB7F495739F62A72E5 /* UIKit.framework */,
+				0EE61E2049F76272B3D8073F9457F643 /* WebKit.framework */,
+				3FE1BAFB02B748FB2D004C641DBC0BE0 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD86BC4BA26749977847E1FE42C336CC /* Pods-ShareTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				20F8D52958253C3D9E8EBF1A457AA853 /* Pods-ShareTool_Tests.modulemap */,
+				A7B87E64A04112D3750CE4F3590E633C /* Pods-ShareTool_Tests-acknowledgements.markdown */,
+				D3E4C99965EED4F167C46563AC1E0B23 /* Pods-ShareTool_Tests-acknowledgements.plist */,
+				9B9593BC43C93AE0F289F19266A9C9C9 /* Pods-ShareTool_Tests-dummy.m */,
+				283DBBA7C095A586AF3F6EE7188D0B75 /* Pods-ShareTool_Tests-frameworks.sh */,
+				73337566B91FE5350EC6A1F4040B3213 /* Pods-ShareTool_Tests-Info.plist */,
+				515460842E82336738C552B8BDB7B244 /* Pods-ShareTool_Tests-umbrella.h */,
+				111794FA1AE36B6FC520686BA9B1B004 /* Pods-ShareTool_Tests.debug.xcconfig */,
+				E70C43B07491C8D5F05332CE97AD5211 /* Pods-ShareTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShareTool_Tests";
+			path = "Target Support Files/Pods-ShareTool_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35F02E7CCD273CDCCC3D785889FD988F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993758491E4B9FC634EF6804BD7A3728 /* ShareSDKTool.h in Headers */,
+				4D96D7BCC39B1E6DB5510BF61B1855E5 /* ShareTool-umbrella.h in Headers */,
+				1E50B1A74083D708F0C3279DE2D219A3 /* WechatAuthSDK.h in Headers */,
+				E46DF968644AF20773999BD9723B7CF3 /* WXApi.h in Headers */,
+				6E41A6CDC889CDC88151AA7F14C8CBA2 /* WXApiObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		442E5B2A4B56C7A68B664C2E44127F0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1898C6C981DCAF2488CB13F6B99CB54C /* Pods-ShareTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA20D17B51E9FEBD6ED123FBE8243C5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CD1940DF1687BA19B549E6AF5E40E23 /* Pods-ShareTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		645CDFDD2DAE50DE814890BD6DE70D8F /* ShareTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA106238DDDEA3B8D948EF55A7253E4F /* Build configuration list for PBXNativeTarget "ShareTool" */;
+			buildPhases = (
+				35F02E7CCD273CDCCC3D785889FD988F /* Headers */,
+				DB7368004B33C318184BD1AB8E3FC258 /* Sources */,
+				6557C6F8F8E6156F0CAAE98D9D563A50 /* Frameworks */,
+				8B30695BFC8BC1E10AFD7ED2372FF11B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AB401CD9503E1E35D4D59D93D1FB631 /* PBXTargetDependency */,
+			);
+			name = ShareTool;
+			productName = ShareTool;
+			productReference = 6C3A038252C65153A22C27EDC5C76F93 /* ShareTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D053DE82E080A0702E92F04FE1F638E7 /* Pods-ShareTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB7A488211078E7795991F293FA7654 /* Build configuration list for PBXNativeTarget "Pods-ShareTool_Example" */;
+			buildPhases = (
+				442E5B2A4B56C7A68B664C2E44127F0A /* Headers */,
+				B1E32F1968C2C99CBC6FB5A6D1688D46 /* Sources */,
+				DF69405BE29A1EC0B454A4B9272FCD5D /* Frameworks */,
+				CC91796A7617882D9A84644F4E5491F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29D9E40E2C094B16649306B7B60BFA85 /* PBXTargetDependency */,
+				851A12225EE89723FB2B4997195DD56E /* PBXTargetDependency */,
+			);
+			name = "Pods-ShareTool_Example";
+			productName = "Pods-ShareTool_Example";
+			productReference = CD68ABFB38F77EC0CD69762B41C7FC97 /* Pods_ShareTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEFD44AF4D41A95850E7868D5B8B2196 /* Pods-ShareTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6817533E869655C6F3C21DC9FEB562FF /* Build configuration list for PBXNativeTarget "Pods-ShareTool_Tests" */;
+			buildPhases = (
+				AA20D17B51E9FEBD6ED123FBE8243C5F /* Headers */,
+				DF153B9A3BB0EA845F9837448AC76625 /* Sources */,
+				502263770A39DD64C6E0E9E09F79C7E7 /* Frameworks */,
+				17FF84D2522523ED13CCF0B20E597F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74D5FE3BFE190F6FDE6D36375BB4B815 /* PBXTargetDependency */,
+				2760F9F3509029D61D79D8DC917D6EEA /* PBXTargetDependency */,
+			);
+			name = "Pods-ShareTool_Tests";
+			productName = "Pods-ShareTool_Tests";
+			productReference = C1E78FC217E3791AEC8017856B042500 /* Pods_ShareTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DD2CE9BECFDE1BD112A474EA2313F1E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				D053DE82E080A0702E92F04FE1F638E7 /* Pods-ShareTool_Example */,
+				DEFD44AF4D41A95850E7868D5B8B2196 /* Pods-ShareTool_Tests */,
+				645CDFDD2DAE50DE814890BD6DE70D8F /* ShareTool */,
+				CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17FF84D2522523ED13CCF0B20E597F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B30695BFC8BC1E10AFD7ED2372FF11B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC91796A7617882D9A84644F4E5491F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E32F1968C2C99CBC6FB5A6D1688D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E32E2A1559542EBB7498FCF33F14DF17 /* Pods-ShareTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB7368004B33C318184BD1AB8E3FC258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1E868A10C03973EAC4FD91EB325F19 /* libWeChatSDK.a in Sources */,
+				3C8AFA304E70807DC530A80E1E0423F5 /* README.txt in Sources */,
+				48E9535D5A5CF1030B628D4D428C4EFA /* ReplaceMe.m in Sources */,
+				9E0FC0265C4A44E4C1A6D111109F167A /* ShareSDKTool.m in Sources */,
+				B285039334A6E86B4A005A295C6A3E0C /* ShareTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF153B9A3BB0EA845F9837448AC76625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E9E53AD665C7FE5F50896E1CC9C642 /* Pods-ShareTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AB401CD9503E1E35D4D59D93D1FB631 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentOpenAPI;
+			target = CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */;
+			targetProxy = BD399F87DE91AF042AA947C060B26931 /* PBXContainerItemProxy */;
+		};
+		2760F9F3509029D61D79D8DC917D6EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShareTool_Example";
+			target = D053DE82E080A0702E92F04FE1F638E7 /* Pods-ShareTool_Example */;
+			targetProxy = B4007EB620EA2E86D6864E9DDAB760FC /* PBXContainerItemProxy */;
+		};
+		29D9E40E2C094B16649306B7B60BFA85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShareTool;
+			target = 645CDFDD2DAE50DE814890BD6DE70D8F /* ShareTool */;
+			targetProxy = 2490A7195C161CFAC5329DFB1EE70BC8 /* PBXContainerItemProxy */;
+		};
+		74D5FE3BFE190F6FDE6D36375BB4B815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 4A3EADC8E95FD6954BDD7EB563CAF36F /* PBXContainerItemProxy */;
+		};
+		851A12225EE89723FB2B4997195DD56E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TencentOpenAPI;
+			target = CA97C3765B8E3DCC8E1F8E386E78EC22 /* TencentOpenAPI */;
+			targetProxy = 63B335805F22CE014F10658794684F5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08CCED3C36BA775DD477EE69521A079D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E70C43B07491C8D5F05332CE97AD5211 /* Pods-ShareTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareTool_Tests/Pods-ShareTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareTool_Tests/Pods-ShareTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15473376D0153E5C0A7C91FD571DB32E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B78E32B309B10F58800042FA02D855E /* TencentOpenAPI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F97CE495AA66840B29A310E033DDE0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04610D746E850A5E1416175A9BA74FE /* TencentOpenAPI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		3662B2043AE91394650F241151E5F958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF08CC3391D549BCC90F78118DD5499 /* ShareTool.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShareTool/ShareTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareTool/ShareTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareTool/ShareTool.modulemap";
+				PRODUCT_MODULE_NAME = ShareTool;
+				PRODUCT_NAME = ShareTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DFB8267CA6C9D51D9BAB45300609503 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		859A0D7DE3F27A0CD32CC290C2EF44AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55CD30B6FB671BB2C5E24DF8696E1AF5 /* ShareTool.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShareTool/ShareTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShareTool/ShareTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShareTool/ShareTool.modulemap";
+				PRODUCT_MODULE_NAME = ShareTool;
+				PRODUCT_NAME = ShareTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B2B9FE6F90506C43335AD48C7B789074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 111794FA1AE36B6FC520686BA9B1B004 /* Pods-ShareTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareTool_Tests/Pods-ShareTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareTool_Tests/Pods-ShareTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F70A56CFDEE6FC4E6D2903018EFF44B7 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7B7354A93F0BC77A1EF91AD5B5AE327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B93AF3A1691BDA8344523346D871B3 /* Pods-ShareTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareTool_Example/Pods-ShareTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareTool_Example/Pods-ShareTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+		EE00CA1B7BAE6A341E4567320A7CD2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0C498AFBDEA14A21CEBC68B25021C5 /* Pods-ShareTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShareTool_Example/Pods-ShareTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShareTool_Example/Pods-ShareTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6817533E869655C6F3C21DC9FEB562FF /* Build configuration list for PBXNativeTarget "Pods-ShareTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B9FE6F90506C43335AD48C7B789074 /* Debug */,
+				08CCED3C36BA775DD477EE69521A079D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69A610F5447A8DF52491B1D5B78BC9DA /* Build configuration list for PBXAggregateTarget "TencentOpenAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F97CE495AA66840B29A310E033DDE0C /* Debug */,
+				15473376D0153E5C0A7C91FD571DB32E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB7A488211078E7795991F293FA7654 /* Build configuration list for PBXNativeTarget "Pods-ShareTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B7354A93F0BC77A1EF91AD5B5AE327 /* Debug */,
+				EE00CA1B7BAE6A341E4567320A7CD2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA106238DDDEA3B8D948EF55A7253E4F /* Build configuration list for PBXNativeTarget "ShareTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3662B2043AE91394650F241151E5F958 /* Debug */,
+				859A0D7DE3F27A0CD32CC290C2EF44AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
