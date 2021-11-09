@@ -28,7 +28,9 @@ static ShareSDKTool *tool = nil;
 }
 
 -(void)wxrRegisterApp:(NSString*)appId universalLink:(NSString*)link{
-    [WXApi registerApp:appId universalLink:link];
+    if ([WXApi registerApp:appId universalLink:link]){
+        NSLog(@"微信sdK登录成功");
+    }
 }
 
 
@@ -162,6 +164,7 @@ static ShareSDKTool *tool = nil;
     [self dismissSMSVC];
 }
 
+//获取顶部viewController
 - (UIViewController *)topViewController {
     UIViewController *resultVC;
     resultVC = [self _topViewController:[[UIApplication sharedApplication].keyWindow rootViewController]];

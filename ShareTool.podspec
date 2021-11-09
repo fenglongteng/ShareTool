@@ -19,27 +19,25 @@ Pod::Spec.new do |s|
 
   s.description      = '微信分享、qq分享pod模块化集成'
 
-  s.homepage         = 'https://github.com/冯龙腾/ShareTool'
+  s.homepage         = 'https://github.com/fenglongteng/ShareTool'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '冯龙腾' => '524510161@qq.com' }
-  s.source           = { :git => 'https://github.com/冯龙腾/ShareTool.git', :tag => s.version.to_s }
+  s.author           = { 'fenglongteng' => '524510161@qq.com' }
+  s.source           = { :git => 'https://github.com/fenglongteng/ShareTool.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ShareTool/Classes/**/*'
   
-  s.source_files = 'ShareTool/Classes/**/*'
-
-  
   s.vendored_libraries = ['ShareTool/Lib/**/*.a']
   
   s.libraries = 'z', 'c++'
 
-  
+  #qq 分享集成
   s.dependency 'TencentOpenAPI'
 
+  #微信依赖库
   s.frameworks  = 'Security', 'CoreGraphics', 'WebKit','TencentOpenAPI'
 
 
